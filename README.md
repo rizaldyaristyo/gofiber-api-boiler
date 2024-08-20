@@ -11,6 +11,12 @@ CREATE TABLE tasks (
  status VARCHAR(50) NOT NULL
 );
 
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL
+);
+
 -- in case i forgot
 CREATE USER 'username'@'%' IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES ON *.* to 'username'@'%';
