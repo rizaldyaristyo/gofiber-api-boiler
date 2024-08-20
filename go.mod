@@ -3,7 +3,6 @@ module rizaldyaristyo-fiber-boiler
 go 1.21.6
 
 require (
-	github.com/auth0/go-jwt-middleware/v2 v2.2.1
 	github.com/go-sql-driver/mysql v1.8.1
 	github.com/gofiber/fiber/v2 v2.52.5
 	github.com/golang-jwt/jwt/v5 v5.2.1
@@ -24,5 +23,4 @@ require (
 	github.com/valyala/fasthttp v1.51.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
 	golang.org/x/sys v0.23.0 // indirect
-	gopkg.in/go-jose/go-jose.v2 v2.6.2 // indirect
 )
